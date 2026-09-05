@@ -14,7 +14,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://webmcp-todo-app.vercel.app/",
+        "https://webmcp-todo-app.vercel.app",
+        "https://webmcp-todo-app-git-main-saurabh-bakolias-projects.vercel.app",
+        "https://webmcp-todo-r5ejhjzpi-saurabh-bakolias-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
